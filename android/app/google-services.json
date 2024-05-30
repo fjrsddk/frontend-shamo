@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "416460454051",
+    "project_id": "shamo-aa9f8",
+    "storage_bucket": "shamo-aa9f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416460454051:android:f9c311d6e11c7edd0da716",
+        "android_client_info": {
+          "package_name": "com.neptus.shamo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDdMxBskdOT-9acQEWGu9gvLsNSTohtNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
