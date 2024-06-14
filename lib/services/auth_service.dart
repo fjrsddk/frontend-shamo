@@ -4,6 +4,7 @@ import 'package:http/http.dart' as http;
 
 class AuthService {
   String baseUrl = 'http://shamo-latihanbackend.test/api';
+  //API diatas ganti dari http://shamo-latihanbackend.test/api jadi http://192.168.12.234/api/
 
   Future<UserModel?> register({
     required String name,
