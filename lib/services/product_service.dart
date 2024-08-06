@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shamo/models/product_model.dart';
 
 class ProductService {
-  String baseUrl = 'http://shamo-latihanbackend.test/api';
+  String baseUrl = 'http://127.0.0.1:8001/api';
 
   Future<List<ProductModel>> getProducts() async {
     var url = Uri.parse('$baseUrl/products');

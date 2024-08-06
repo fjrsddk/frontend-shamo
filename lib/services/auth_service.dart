@@ -3,7 +3,7 @@ import 'package:shamo/models/user_model.dart';
 import 'package:http/http.dart' as http;
 
 class AuthService {
-  String baseUrl = 'http://shamo-latihanbackend.test/api';
+  String baseUrl = 'http://127.0.0.1:8001/api';
   //API diatas ganti dari http://shamo-latihanbackend.test/api jadi http://192.168.12.234/api/
 
   Future<UserModel?> register({
