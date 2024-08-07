@@ -4,7 +4,7 @@ import '../models/cart_model.dart';
 
 class TransactionService {
   String baseUrl =
-      'http://127.0.0.1:8001/api'; //http://192.168.12.234/api/ & http://shamo-latihanbackend.test/api
+      'http://192.168.12.234:8001/api'; //http://192.168.12.234/api/ & http://shamo-latihanbackend.test/api
 
   Future<bool> checkout(
       String token, List<CartModel> carts, double totalPrice) async {
