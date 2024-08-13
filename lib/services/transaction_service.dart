@@ -3,8 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/cart_model.dart';
 
 class TransactionService {
-  String baseUrl =
-      'http://192.168.12.234:8001/api'; //http://192.168.12.234/api/ & http://shamo-latihanbackend.test/api
+  String baseUrl = 'http://149.129.215.118:8000/api';
 
   Future<bool> checkout(
       String token, List<CartModel> carts, double totalPrice) async {
